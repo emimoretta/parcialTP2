@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de libro - MORETTA EMILIANO - TP2</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <section>
+
+        <h1>Parcial TP2 - MORETTA EMILIANO</h1>
+
+        <h4>Forms de testeo de los endpoints</h4>
+            <form action="/numeros/entrada" method="post">
+                <label for="titulo">Ingrese el número</label>
+                <input type="number" id="numero" name="numero">
+                <button>Enviar número al servidor</button>
+            </form>
+            <br>
+            <br>
+
+            <form action="/numeros/entrada" method="get" id="entrada">
+                <label for="entrada">Ver entrada</label>
+                <button>Mostrar todos los numeros</button>
+            </form>
+
+            <br>
+            <br>
+            <form action="/numeros/promedio" method="get" id="promedios">
+                <label for="promedios">Ver promedio</label>
+                <button>Mostrar promedio</button>
+            </form>
+
+            <br>
+            <br>
+            <form action="/numeros/minmax" method="get" id="minmax">
+                <label for="minmax">Ver minimo y máximo</label>
+                <button>Mostrar mínimo y máximo</button>
+            </form>
+
+            <br>
+            <br>
+            <form action="/numeros/cantidad" method="get" id="cantidad">
+                <label for="cantidad">Ver cantidad de numeros</label>
+                <button>Mostrar cantidad</button>
+            </form>
+
+    </section>
+
+
+</body>
+
+</html>
